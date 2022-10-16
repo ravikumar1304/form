@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REG FORM</title>
+</head>
+<style>
+    input{
+        background-color: rgb(228, 227, 227);
+        width: 200px;
+        color: rgb(218, 55, 6);
+        padding: 10px 10px;
+        border-radius: 5px;
+        border: solid 1px orange;
+        margin: 5px;
+    }
+    input[type=text]{
+        color: rgb(255, 0, 106);
+    }
+    
+</style>
+<body>
+    
+    <form action="">
+        <label for="">Name:</label>
+        <input type="text" name="sname" placeholder="Enter your name" required /><br>
+        <label for="">Mobile:</label>
+        <input type="number" name="Mobile" placeholder="Enter number" required /><br>
+        <label for="">E-mail:</label>
+        <input type="email" name="email" placeholder="Enter your mail" required /><br>
+        <label for="">Date of birth:</label>
+        <input type="date" name="dob" placeholder="Enter your dob" required /><br>
+        <label for="">Password:</label>
+        <input type="Password" name="pwd" placeholder="Enter number" required /><br>
+        <label for="">Resume:</label>
+        <input type="file" name="resum" placeholder="" required /><br>
+        <lable>GENDER:</label>
+			<input type="radio" name="ravi"/>Male
+			<input type="radio" name="sneha"/>Female
+			<select>
+				<option type="1st sem">1ST SEM</option>
+				<option type="1st sem">2ND SEM</option>
+				<input type="checkbox" value="1st sem"/>EE<br>
+				<input type="checkbox" value="1st sem"/>CSE<br>
+			</select>
+        <label for=""></label>
+        <input type="hidden" name="hide" required /><br>
+        <input type="submit" value="submit"/><br>
+		<input type="reset" value="reset"/>
+    </form>
+</body>
+</html>
